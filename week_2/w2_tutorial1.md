@@ -25,16 +25,18 @@ Check the age, adult companion, and ticket.
 - Allowed to enter
 - Not allowed to enter
 
-Age>=13  Adult  Ticket  Result
+## 2. Truth Table
 
-F         F       F       F
-F         F       T       F
-F         T       F       F
-F         T       T       T
-T         F       F       F
-T         F       T       T
-T         T       F       F
-T         T       T       T
+| Age >= 13 | With Adult | Valid Ticket | Result |
+|----------|------------|--------------|--------|
+| False | False | False | False |
+| False | False | True | False |
+| False | True | False | False |
+| False | True | True | True |
+| True | False | False | False |
+| True | False | True | True |
+| True | True | False | False |
+| True | True | True | True |
 
 ## 2.3 Algorithm
 
