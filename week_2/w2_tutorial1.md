@@ -24,3 +24,14 @@ Check the age, adult companion, and ticket.
 
 - Allowed to enter
 - Not allowed to enter
+
+Age>=13  Adult  Ticket  Result
+
+F         F       F       F
+F         F       T       F
+F         T       F       F
+F         T       T       T
+T         F       F       F
+T         F       T       T
+T         T       F       F
+T         T       T       T
