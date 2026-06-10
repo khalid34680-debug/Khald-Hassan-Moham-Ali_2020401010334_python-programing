@@ -35,3 +35,18 @@ T         F       F       F
 T         F       T       T
 T         T       F       F
 T         T       T       T
+
+## 2.3 Algorithm
+
+Start
+
+Input age
+Input adult
+Input ticket
+
+If (age >= 13 OR adult = True) AND ticket = True
+    Display "Allowed to enter"
+Else
+    Display "Not allowed to enter"
+
+End
