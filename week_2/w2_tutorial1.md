@@ -50,3 +50,19 @@ Else
     Display "Not allowed to enter"
 
 End
+
+## 2.4 Pseudocode
+
+BEGIN
+
+INPUT age
+INPUT adult
+INPUT ticket
+
+IF ((age >= 13 OR adult = TRUE) AND ticket = TRUE) THEN
+    PRINT "Allowed to enter"
+ELSE
+    PRINT "Not allowed to enter"
+END IF
+
+END
