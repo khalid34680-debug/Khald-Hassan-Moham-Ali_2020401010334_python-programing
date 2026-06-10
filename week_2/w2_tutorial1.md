@@ -66,3 +66,34 @@ ELSE
 END IF
 
 END
+
+## 3.1 Test Cases
+
+Test Case 1
+
+Age = 15
+Adult = False
+Ticket = True
+
+Result:
+Allowed to enter
+
+
+Test Case 2
+
+Age = 10
+Adult = False
+Ticket = True
+
+Result:
+Not allowed to enter
+
+
+Test Case 3
+
+Age = 10
+Adult = True
+Ticket = True
+
+Result:
+Allowed to enter
