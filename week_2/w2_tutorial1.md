@@ -97,3 +97,6 @@ Ticket = True
 
 Result:
 Allowed to enter
+
+## Logic Diagram
+<img width="441" height="638" alt="logic_drawio" src="https://github.com/user-attachments/assets/749cd2a5-fe31-4317-be62-d7344ffb7699" />
