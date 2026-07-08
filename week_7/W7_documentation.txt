@@ -1,0 +1,11 @@
+Bug found:
+The program didnt validate invalid price or invalid quantity.
+
+Fix:
+Added validation in food_order.py.
+If price <= 0, return "invalid price".
+If quantity <= 0, return "invalid quantity".
+
+Testing:
+Used pytest to test the program.
+All tests passed successfully.
