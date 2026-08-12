@@ -1,9 +1,10 @@
 def check_computers():
     computers = []  
 
+    
     for number in range(5):
 
-       e
+        
         status = input(
             f"Computer {number + 1} Status (A/U/M): "
         ).upper()
@@ -14,7 +15,7 @@ def check_computers():
 
 
 def count_available(computers):
-    available = 0 
+    available = 0  
 
     for status in computers:
         if status == "A":
